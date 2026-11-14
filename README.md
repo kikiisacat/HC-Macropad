@@ -1,6 +1,6 @@
 # HC-Macropad
 A custom 15-key/2-dial/oled macropad. It will be put to good use to open programs, run complex commands, and execute multi-step actions.
-I plan to purchase all parts marked with a "0" in the BOM out of pocket.
+I plan to purchase all parts marked with a "0" in the BOM out of pocket or I have them already.
 # Why I made it
 I wanted to learn PCB design basics. I also wanted many custom keys for productivity, and chose this 2-dial and 15-key layout for this reason. I chose to use a MCP23017 to get access to more than 8 inputs.
 # Parts

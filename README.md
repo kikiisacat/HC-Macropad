@@ -19,13 +19,10 @@ MCP23017 for more inputs
 Install the [QMK firmware](firmware/README.md), then assign the F13–F24 keys to the shortcuts. The firmware includes both dials, their push buttons, RGB lighting, and OLED.
 
 # Images
+<img width="3172" height="871" alt="image" src="https://github.com/user-attachments/assets/5e939bea-3aad-41b5-9287-4bee6e5e041c" />
 
-<img width="845" height="702" alt="image" src="https://github.com/user-attachments/assets/4c6d449e-7738-470d-9c7f-231673c3e6c1" />
+<img width="1120" height="917" alt="image" src="https://github.com/user-attachments/assets/f1f1f926-3fab-4002-b022-143afbc58d03" />
 
-<img width="772" height="778" alt="image" src="https://github.com/user-attachments/assets/b5a58523-6587-4499-8901-cbcb19e75584" />
+<img width="752" height="781" alt="image" src="https://github.com/user-attachments/assets/2ac7bad0-5bd3-44c3-a760-32831c46c6c5" />
 
-<img width="812" height="742" alt="image" src="https://github.com/user-attachments/assets/b20b1dfd-3a56-4191-ada9-8aac8e0993fc" />
-
-<img width="947" height="856" alt="image" src="https://github.com/user-attachments/assets/505cf6f8-bf24-4237-8011-278ae3e7068b" />
-
-<img width="1172" height="751" alt="image" src="https://github.com/user-attachments/assets/6c591727-80c4-43f4-907a-d75789c02f65" />
+<img width="1174" height="850" alt="image" src="https://github.com/user-attachments/assets/509faf6c-1588-4a51-a4ab-4917d19df9c0" />

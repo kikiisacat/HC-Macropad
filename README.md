@@ -9,11 +9,8 @@ Seeed Studio Xiao RP2040
 0.91 in OLED
 16 SK6812 MINI-E RGB LEDs, 15 for keys, 1 for status/additional
 MCP23017 for more inputs
-74AHCT125 for LED buffer
+74AHCT125 for LED buffer \
 Keycap files were from here: https://github.com/anhthang/dsa-keycap
-# Dimensions
-100 x 90.5mm, Two layer pcb
-6 Mounting holes, 2.2mm diameter each.
 
 # Use
 Install the [QMK firmware](firmware/README.md), then assign the F13–F24 keys to the shortcuts. The firmware includes both dials, their push buttons, RGB lighting, and OLED.

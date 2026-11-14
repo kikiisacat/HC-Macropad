@@ -1,0 +1,24 @@
+// Copyright 2026 kikiisacat
+// SPDX-License-Identifier: GPL-2.0-or-later
+#pragma once
+
+#define MATRIX_ROWS 6
+#define MATRIX_COLS 3
+
+// XIAO D4/D5 are RP2040 GPIO6/GPIO7, on hardware I2C1.
+#define I2C_DRIVER I2CD1
+#define I2C1_SDA_PIN GP6
+#define I2C1_SCL_PIN GP7
+#define I2C1_CLOCK_SPEED 400000
+#define I2C1_SDA_PAL_MODE 3
+#define I2C1_SCL_PAL_MODE 3
+
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 500U
+
+// Most 0.91-inch SSD1306 modules use 128x32 at 0x3C.
+#define OLED_DISPLAY_128X32
+#define OLED_DISPLAY_ADDRESS 0x3C
+#define OLED_TIMEOUT 60000
+#define OLED_UPDATE_INTERVAL 200
+#define OLED_BRIGHTNESS 128

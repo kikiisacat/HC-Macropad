@@ -1,0 +1,214 @@
+{
+    "manufacturer": "kikiisacat",
+    "keyboard_name": "HC-Macropad",
+    "maintainer": "kikiisacat",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "board": "GENERIC_RP_RP2040",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x1042",
+        "device_version": "1.0.0",
+        "max_power": 500
+    },
+    "features": {
+        "bootmagic": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "encoder": true,
+        "rgblight": true
+    },
+    "encoder": {
+        "rotary": [
+            {
+                "pin_a": "GP26",
+                "pin_b": "GP27",
+                "resolution": 2
+            },
+            {
+                "pin_a": "GP28",
+                "pin_b": "GP29",
+                "resolution": 2
+            }
+        ]
+    },
+    "rgblight": {
+        "driver": "ws2812",
+        "led_count": 16,
+        "max_brightness": 64,
+        "sleep": true,
+        "default": {
+            "hue": 128,
+            "val": 32
+        },
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true
+        }
+    },
+    "ws2812": {
+        "driver": "vendor",
+        "pin": "GP0"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {
+                    "label": "SW1",
+                    "matrix": [
+                        0,
+                        0
+                    ],
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "label": "SW4",
+                    "matrix": [
+                        1,
+                        0
+                    ],
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "label": "SW7",
+                    "matrix": [
+                        2,
+                        0
+                    ],
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "label": "SW10",
+                    "matrix": [
+                        3,
+                        0
+                    ],
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "label": "SW13",
+                    "matrix": [
+                        4,
+                        0
+                    ],
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "label": "SW2",
+                    "matrix": [
+                        0,
+                        1
+                    ],
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "label": "SW5",
+                    "matrix": [
+                        1,
+                        1
+                    ],
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "label": "SW8",
+                    "matrix": [
+                        2,
+                        1
+                    ],
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "label": "SW11",
+                    "matrix": [
+                        3,
+                        1
+                    ],
+                    "x": 3,
+                    "y": 2
+                },
+                {
+                    "label": "SW14",
+                    "matrix": [
+                        4,
+                        1
+                    ],
+                    "x": 4,
+                    "y": 2
+                },
+                {
+                    "label": "SW3",
+                    "matrix": [
+                        0,
+                        2
+                    ],
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "label": "SW6",
+                    "matrix": [
+                        1,
+                        2
+                    ],
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "label": "SW9",
+                    "matrix": [
+                        2,
+                        2
+                    ],
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "label": "SW12",
+                    "matrix": [
+                        3,
+                        2
+                    ],
+                    "x": 3,
+                    "y": 3
+                },
+                {
+                    "label": "SW15",
+                    "matrix": [
+                        4,
+                        2
+                    ],
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "label": "SW16 push",
+                    "matrix": [
+                        5,
+                        0
+                    ],
+                    "x": 2.5,
+                    "y": 0
+                },
+                {
+                    "label": "SW17 push",
+                    "matrix": [
+                        5,
+                        1
+                    ],
+                    "x": 3.5,
+                    "y": 0
+                }
+            ]
+        }
+    }
+}

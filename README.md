@@ -16,7 +16,7 @@ MCP23017 for more inputs
 6 Mounting holes, 2.2mm diameter each.
 
 # Use
-Just connect a cable and install the firmware, and then start assigning key functions.
+Install the [QMK firmware](firmware/README.md), then assign the F13–F24 keys to your shortcuts. The firmware includes both dials, their push buttons, RGB lighting, and OLED status. A compiled UF2 and flashing instructions are included.
 
 # Images
 

@@ -3,10 +3,11 @@ title: "Macropad"
 github: "https://github.com/kikiisacat/HC-Macropad"
 description: "A macropad with a custom PCB"
 created_at: "2026-10-11"
-total_time: "11h 5m"
+total_time: "11h 4m"
 ---
 
 # October 12, 2026
+<!-- fabricate:entry 2947 -->
 
 PCB Session 1
 
@@ -15,6 +16,7 @@ PCB Session 1
 **Total time spent: 2h 30m**
 
 # October 13, 2026
+<!-- fabricate:entry 2946 -->
 
 PCB Session 3, Worked on PCB Wiring
 
@@ -23,6 +25,7 @@ PCB Session 3, Worked on PCB Wiring
 **Total time spent: 1h 48m**
 
 # October 14, 2026
+<!-- fabricate:entry 2945 -->
 
 Finished PCB + CAD
 
@@ -31,6 +34,7 @@ Finished PCB + CAD
 **Total time spent: 4h 46m**
 
 # November 13, 2026: Polished the 3D model
+<!-- fabricate:entry 2949 -->
 
 I improved the CAD before resubmitting to fabricate in order to meet fabricate's higher standards. Improvements include rounded corners, new colors for all parts, dial caps, and a switchplate mounted under the halfway mark of the switches instead of above the switch.
 
@@ -38,7 +42,8 @@ I improved the CAD before resubmitting to fabricate in order to meet fabricate's
 
 **Total time spent: 1h**
 
-# November 13, 2026: Added Firmware
+# November 13, 2026 (entry 2): Added Firmware
+<!-- fabricate:entry 2954 -->
 
 I had to make firmware for the macropad as fabricate requires it. Since the schematic used a MCP23017 to get more keys, I had to add a bunch of code to handle its behavior instead of just a keyboard.json.
 
